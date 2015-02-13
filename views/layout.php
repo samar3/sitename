@@ -12,7 +12,8 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                     data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -23,14 +24,14 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="home.php">Home<span class="sr-only">(current)</span></a></li>
-                <li><a href="team.php">teams</a></li>
-                <li><a href="gallery.php">galleries</a></li>
-                <li><a href="service.php">services</a></li>
-                <li><a href="contact.php">contacts</a></li>
-                <li><a href="mainsetting.php">mainsettings</a></li>
-                <li><a href="section.php">sections</a></li>
-                <li><a href="slider.php">sliders</a></li>
-                <li><a href="admin.php">admins</a></li>
+                <li><a href="team.php">Teams</a></li>
+                <li><a href="gallery.php">Galleries</a></li>
+                <li><a href="service.php">Services</a></li>
+                <li><a href="contact.php">Contacts</a></li>
+                <li><a href="mainsetting.php">Mainsettings</a></li>
+                <li><a href="section.php">Sections</a></li>
+                <li><a href="slider.php">Sliders</a></li>
+                <li><a href="admin.php">Admins</a></li>
             </ul>   
         </div>
         

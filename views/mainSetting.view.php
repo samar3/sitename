@@ -1,33 +1,33 @@
- <form role="form" method="post" action="controller/addmainsettings.php">
+<div class="row">
 
-     
-        <div class="form-group">
-            <label>Site Name</label>
-            <input class="form-control" name="site_name" placeholder="Enter Site Name">
-        </div>
-         <div class="form-group">
-            <label>Site Title</label>
-            <input class="form-control" name="site_title" placeholder="Enter Site Title">
-        </div>
-        <div class="form-group">
-            <label>Copy Right by</label>
-            <input class="form-control" name="copyright" placeholder="Enter Site copy Right Name">
-        </div>
-        <div class="form-group">
-            <label>Site Account Facebook</label>
-            <input class="form-control" name="fb" placeholder="Enter Site Facebook Page Name">
-        </div>
-        <div class="form-group">
-            <label>Site Account YouTupe</label>
-            <input class="form-control" name="tp" placeholder="Enter Site YouTupe Channel Name">
-        </div>
-        <div class="form-group">
-            <label>Description Of site </label>
-            <textarea class="form-control" rows="3"></textarea>
-        </div>
+  <table class="table table-bordered table-hover table-striped">
+    <tr>
+      <th>ID</th>
+      <th>SITENAME</th>
+      <th>COPYRIGHT</th>
+      <th>UPDATE</th>
+      <th>DELETE</th>
+    </tr>
 
-     
-        <button type="submit" class="btn btn-default">Add OR Update</button>
-        <button type="reset" class="btn btn-default">Clear</button>
+    <?php foreach ($mainSettings as $mainSetting) :?>
+    <tr>
+      <th><?= $mainSetting['id']?></th>
+      <th><?= $mainSetting['siteName']?></th>
+      <th><?= $mainSetting['copyRight']?></th>
+      <th><a href="">Update</a></th>
+      <th><a href="delete.php?id=<?= $mainSetting['id']?>">Delete</a></th>
+    </tr>
 
-</form>
+    <?php endforeach; ?>
+ 
+
+  </table>
+</div>
+
+<div class="row">
+  <ul class="nav nav-pills">
+    <li class="active">
+      <a href="add.php">Add Article</a>
+    </li>
+  </ul>
+</div>

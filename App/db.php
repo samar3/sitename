@@ -41,21 +41,21 @@ class DB
 	}
 
 
-	/*public function add($tableName,$data,$conn)
+	public function add($tableName,$data,$conn)
 	{ 
-		$sql = "INSERT INTO ".$tableName."(title,body) VALUES(:title,:body)";
+		$sql = "INSERT INTO ".$tableName."(name,job,pic,about) VALUES(:name,:job,:pic,:about)";
 		$stmt = $conn->prepare($sql);
-		$data = ["title"=>$title,"body"=>$body];
 		$stmt->execute($data);
 
+	//	$data = [":name"=>$name,":job"=>$job,":pic"=>$pic,":about"=>$about];
+
 		if (count($stmt->rowCount())) {
-			echo "INSERTED CORRECTLY";
+			return $stmt->rowCount();
 		}
 		else{
-			echo "NOTHING HAPPEN";
+			return false;
 		}
 	}
-
 
 
 	public function delete($tableName,$id,$conn)

@@ -1,45 +1,47 @@
- <form role="form" method="post" action="">
+<div class="row">
+    <form method="POST" action="addTeam.php" enctype="multipart/form-data" class="form-horizontal">
 
-                            
-                            <div class="form-group">
-                                <label>Name</label>
-                                <input class="form-control" name="name" placeholder="Enter Section Name">
-                            </div>
-                            <div class="form-group">
-                                <label>Major</label>
-                                <input class="form-control" name="major" placeholder="Enter Section Name">
-                            </div>
-                            <div class="form-group">
-                                <label>Details About He </label>
-                                <textarea class="form-control" rows="3"></textarea>
-                            </div>
+        <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">name</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="inputEmail3" name="name">
+        </div>
+      </div>
 
-                            
+        <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">job</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="inputEmail3" name="job">
+        </div>
+      </div>
 
-                            <div class="form-group">
-                                <label>His Image</label>
-                                <input type="file">
-                            </div>
+              <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">picture</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="inputEmail3" name="pic">
+        </div>
+      </div>
 
-                            
 
-                            <div class="form-group">
-                                <label>Dispaly OR No</label>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="yes" checked>Display On Site
-                                    </label>
-                                </div>
-                                <div class="radio">
-                                    <label>
-                                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="no">Not Dispaly on Site
-                                    </label>
-                                </div>
-                              
-                            </div>
 
-                         
-                            <button type="submit" class="btn btn-default">Add</button>
-                            <button type="reset" class="btn btn-default">Clear</button>
+      <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">about</label>
+        <div class="col-sm-6">
+          <textarea type="textarea" class="form-control" name="about"></textarea>
+        </div>
+      </div>
 
-                        </form>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default" name="add">Add</button>
+        </div>
+      </div>
+
+       <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+          <button type="file" class="btn btn-default" name="file">Upload Image</button>
+        </div>
+      </div>
+ 
+    </form>
+</div>

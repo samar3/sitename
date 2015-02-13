@@ -9,7 +9,6 @@
 
 
 	//DISPLAY DATA
-	include "view.php";
 	View::make("service",["services"=>$services]);
 
 

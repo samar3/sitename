@@ -19,7 +19,7 @@
       <th><?= $team['pic']?></th>
       <th><a href="team.php?id=<?= $team['id']?>">About</a></th>
       <th><a href="">Update</a></th>
-      <th><a href="delete.php?id=<?= $team['id']?>">Delete</a></th>
+      <th><a href="deleteTeam.php?id=<?= $team['id']?>">Delete</a></th>
     </tr>
    
     <?php endforeach; ?>
@@ -31,7 +31,7 @@
 <div class="row">
   <ul class="nav nav-pills">
     <li class="active">
-      <a href="add.php">Add Article</a>
+      <a href="addTeam.php">Add Member</a>
     </li>
   </ul>
 </div>

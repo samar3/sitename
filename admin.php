@@ -8,7 +8,6 @@
 
 
 	//DISPLAY DATA
-	include "view.php";
 	View::make("admin",["admins"=>$admins]);
 
 

@@ -9,7 +9,6 @@
 
 
 	//DISPLAY DATA
-	include "view.php";
 	View::make("section",["sections"=>$sections]);
 
 
