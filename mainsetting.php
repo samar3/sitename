@@ -5,10 +5,10 @@
 	require 'App/app.php';
 
 	//GET DATA FROM DATABASE
-	$mainSettings = $db->query("SELECT * FROM mainSettings",[],$conn);
+	$mainsettings = $db->query("SELECT * FROM mainsettings",[],$conn);
 
 	//DISPLAY DATA
-	View::make("mainSetting",["mainSettings"=>$mainSettings]);
+	View::make("mainsetting",["mainsettings"=>$mainsettings]);
 
 
  ?>
