@@ -27,7 +27,7 @@
 <div class="row">
   <ul class="nav nav-pills">
     <li class="active">
-      <a href="add.php">Add Article</a>
+      <a href="addMainSetting.php">Add MainSetting</a>
     </li>
   </ul>
 </div>

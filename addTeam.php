@@ -16,7 +16,8 @@
 		$pic = htmlspecialchars($_POST['pic']);
 		$about = htmlspecialchars($_POST['about']);
 
-		$data = [":column1"=>$name,":column2"=>$job,":column3"=>$pic,":column4"=>$about];
+
+		$data = [":name"=>$name,":job"=>$job,":pic"=>$pic,":about"=>$about];
 
 
 	//INSERT DATA INTO DATABASE

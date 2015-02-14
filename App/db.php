@@ -43,7 +43,7 @@ class DB
 
 	public function add($tableName,$data,$conn)
 	{ 
-		$sql = "INSERT INTO ".$tableName."(column1,column2,column3,column4) VALUES(:column1,:column2,:column3,:column4)";
+		$sql = "INSERT INTO ".$tableName."(name,job,pic,about) VALUES(:name,:job,:pic,:about)";
 		$stmt = $conn->prepare($sql);
 		$stmt->execute($data);
 
