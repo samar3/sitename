@@ -43,11 +43,10 @@ class DB
 
 	public function add($tableName,$data,$conn)
 	{ 
-		$sql = "INSERT INTO ".$tableName."(name,job,pic,about) VALUES(:name,:job,:pic,:about)";
+		$sql = "INSERT INTO ".$tableName."(column1,column2,column3,column4) VALUES(:column1,:column2,:column3,:column4)";
 		$stmt = $conn->prepare($sql);
 		$stmt->execute($data);
 
-	//	$data = [":name"=>$name,":job"=>$job,":pic"=>$pic,":about"=>$about];
 
 		if (count($stmt->rowCount())) {
 			return $stmt->rowCount();
