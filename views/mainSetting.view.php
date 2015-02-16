@@ -9,13 +9,13 @@
       <th>DELETE</th>
     </tr>
 
-    <?php foreach ($mainSettings as $mainSetting) :?>
+    <?php foreach ($mainsettings as $mainsetting) :?>
     <tr>
-      <th><?= $mainSetting['id']?></th>
-      <th><?= $mainSetting['siteName']?></th>
-      <th><?= $mainSetting['copyRight']?></th>
+      <th><?= $mainsetting['id']?></th>
+      <th><?= $mainsetting['siteName']?></th>
+      <th><?= $mainsetting['copyRight']?></th>
       <th><a href="">Update</a></th>
-      <th><a href="delete.php?id=<?= $mainSetting['id']?>">Delete</a></th>
+      <th><a href="deleteMainSetting.php?id=<?= $mainsetting['id']?>">Delete</a></th>
     </tr>
 
     <?php endforeach; ?>

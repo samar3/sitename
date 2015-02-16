@@ -17,7 +17,7 @@
       <th><?= $contact['mail']?></th>
       <th><?= $contact['msg']?></th>
       <th><a href="">Update</a></th>
-      <th><a href="delete.php?id=<?= $contact['id']?>">Delete</a></th>
+      <th><a href="deleteContact.php?id=<?= $contact['id']?>">Delete</a></th>
     </tr>
    
     <?php endforeach; ?>

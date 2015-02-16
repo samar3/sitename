@@ -16,7 +16,7 @@
        <th><?= $admin['username']?></th>
       <th><?= $admin['password']?></th>
       <th><a href="">Update</a></th>
-      <th><a href="delete.php?id=<?= $admin['id']?>">Delete</a></th>
+      <th><a href="deleteAdmin.php?id=<?= $admin['id']?>">Delete</a></th>
     </tr>
     <?php endforeach; ?>
   </table>

@@ -16,7 +16,7 @@
       <th><?= $service['body']?><a href=".php?id=<?= $service['id']?>">view </a></th>
       <th><?= $service['pic']?></th>
       <th><a href="">Update</a></th>
-      <th><a href="delete.php?id=<?= $service['id']?>">Delete</a></th>
+      <th><a href="deleteService.php?id=<?= $service['id']?>">Delete</a></th>
     </tr>
     <?php endforeach; ?>
   </table>

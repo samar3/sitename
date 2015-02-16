@@ -15,7 +15,7 @@
       <th><?= $slider['pic']?></th>
       <th><?= $slider['title']?></th>
       <th><a href="">Update</a></th>
-      <th><a href="delete.php?id=<?= $slider['id']?>">Delete</a></th>
+      <th><a href="deleteSlider.php?id=<?= $slider['id']?>">Delete</a></th>
     </tr>
    
     <?php endforeach; ?>

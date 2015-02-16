@@ -14,7 +14,7 @@
       <th><?= $section['name']?></th>
       <th><?= $section['description']?></th>
       <th><a href="">Update</a></th>
-      <th><a href="delete.php?id=<?= $section['id']?>">Delete</a></th>
+      <th><a href="deleteSection.php?id=<?= $section['id']?>">Delete</a></th>
     </tr>
    
     <?php endforeach; ?>
