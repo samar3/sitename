@@ -1,4 +1,5 @@
-<?php 
+
+<?php
 
 	
 	//CONNECTION OF DATABASE
@@ -9,7 +10,7 @@
 
 
 	//DISPLAY DATA
-	View::make("section",["sections"=>$sections]);
+	View::make("section",["sections"=>$sections,"title"=>"Sections","active"=>"section"]);
 
 
  ?>

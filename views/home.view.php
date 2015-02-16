@@ -7,6 +7,7 @@
 <body>
 <section class="container">
 		
+
 <div class="row">
 	<div class="col-xs-6 col-md-3">
     	<a href="team.php" class="thumbnail">
@@ -33,7 +34,7 @@
 
 
 	<div class="col-xs-6 col-md-3">
-    	<a href="mainSetting.php" class="thumbnail">
+    	<a href="mainsetting.php" class="thumbnail">
       		<img src="../panel/img/circle1.jpg" alt="...">
    		</a>
 	</div>

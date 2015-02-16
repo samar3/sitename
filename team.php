@@ -8,7 +8,7 @@
 	$teams = $db->query("SELECT * FROM teams",[],$conn);
 
 	//DISPLAY DATA
-	View::make("team",["teams"=>$teams]);
+	View::make("team",["teams"=>$teams,"title"=>"Teams","active"=>"team"]);
 
 
  ?>

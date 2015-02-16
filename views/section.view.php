@@ -1,4 +1,3 @@
-<div class="row">
 
   <table class="table table-bordered table-hover table-striped">
     <tr>
@@ -27,7 +26,7 @@
 <div class="row">
   <ul class="nav nav-pills">
     <li class="active">
-      <a href="addSection.php">Add Sectione</a>
+      <a href="addSection.php">Add Section</a>
     </li>
   </ul>
 </div>

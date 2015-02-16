@@ -8,7 +8,7 @@
 	//$mainSettings = $db->query("SELECT * FROM mainSettings",[],$conn);
 
 	//DISPLAY DATA
-	View::make("home");
+	View::make("home",["title"=>"Home","active"=>"home"]);
 
 
  ?>

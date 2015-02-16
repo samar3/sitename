@@ -9,7 +9,7 @@
 
 
 	//DISPLAY DATA
-	View::make("service",["services"=>$services]);
+	View::make("service",["services"=>$services,"title"=>"Services","active"=>"service"]);
 
 
 

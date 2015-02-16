@@ -29,7 +29,7 @@
 <div class="row">
   <ul class="nav nav-pills">
     <li class="active">
-      <a href="add.php">Add Article</a>
+      <a href="addContact.php">Add Contact</a>
     </li>
   </ul>
 </div>

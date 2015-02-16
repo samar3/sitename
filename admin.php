@@ -8,7 +8,7 @@
 
 
 	//DISPLAY DATA
-	View::make("admin",["admins"=>$admins]);
+	View::make("admin",["admins"=>$admins,"title"=>"Admins","active"=>"admin"]);
 
 
  ?>

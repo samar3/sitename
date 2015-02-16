@@ -8,7 +8,7 @@
 	$sliders = $db->query("SELECT * FROM sliders",[],$conn);
 
 	//DISPLAY DATA
-	View::make("slider",["sliders"=>$sliders]);
+	View::make("slider",["sliders"=>$sliders,"title"=>"Sliders","active"=>"slider"]);
 
 
  ?>
